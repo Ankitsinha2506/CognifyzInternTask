@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class PasswordStrengthChecker {
 	
 	
-	
 	private static String checkPasswordStrength(String password) {
 		int lengthScore = checkLength(password);
 		int upperScore = checkUpperCase(password);
